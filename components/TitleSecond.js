@@ -6,7 +6,7 @@ export default function TitleSecond(){
         Posts Relacionados
     </h1>
     <p style={
-        { textAlign: 'center' }} className={styles.text}>
+        { textAlign: "center" }} className={styles.text}>
         Conteúdo premium para estimular <br />o seu interesse pelo que fazemos.
       </p>
     </div>

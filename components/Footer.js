@@ -1,23 +1,24 @@
 import styles from '@/styles/Footer.module.css'
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Footer() {
   return (
     <footer className={styles.footer}>
 
       <div className={styles.div}>
-      <img src="/assets/images/footer/Buuk_logo.png" alt="Logotipo da empresa" width={177} />
+      <Image src="/assets/images/footer/Buuk_logo.png" alt="Logotipo da empresa" width={180} height={85.59} />
       
       </div>
 
       <div className={styles.div}>
   <p>ONDE ESTAMOS</p>
   <div className={styles.location}>
-     <img src="/assets/images/footer/Shape.png" alt="Espaço para imagem" />
+     <Image src="/assets/images/footer/Shape.png" alt="Espaço para imagem" height={19.98} width={17.41} />
     <span>Florianópolis/SC</span>
   </div>
   <div className={styles.location}>
-     <img src="/assets/images/footer/Shape.png" alt="Espaço para imagem" />
+     <Image src="/assets/images/footer/Shape.png" alt="Espaço para imagem" height={19.98} width={17.41}/>
     <span>São Paulo/SP</span>
   </div>
 </div>
@@ -27,27 +28,27 @@ export default function Footer() {
   <ul>
     <li>
       <Link href="#">
-        <img src="/assets/images/footer/facebook.png" alt="Ícone do Facebook" />
+        <Image src="/assets/images/footer/facebook.png" alt="Ícone do Facebook" height={23.85} width={24} />
       </Link>
     </li>
     <li>
       <Link href="#">
-        <img src="/assets/images/footer/twitter.png" alt="Ícone do Twitter" />
+        <Image src="/assets/images/footer/twitter.png" alt="Ícone do Twitter" height={23.85} width={24}/>
       </Link>
     </li>
     <li>
       <Link href="#">
-        <img src="/assets/images/footer/instagram.png" alt="Ícone do Instagram" />
+        <Image src="/assets/images/footer/instagram.png" alt="Ícone do Instagram" height={23.85} width={24}/>
       </Link>
     </li>
     <li>
       <Link href="#">
-        <img src="/assets/images/footer/linkedin.png" alt="Ícone do LinkedIn" />
+        <Image src="/assets/images/footer/linkedin.png" alt="Ícone do LinkedIn" height={23.85} width={24} />
       </Link>
     </li>
     <li>
       <Link href="#">
-        <img src="/assets/images/footer/youtube.png" alt="Ícone do YouTube" />
+        <Image src="/assets/images/footer/youtube.png" alt="Ícone do YouTube" height={23.85} width={24} />
       </Link>
     </li>
   </ul>

@@ -7,7 +7,7 @@ export default function Paragraph(){
         <>
         <div className={styles.container}>
         <p className={styles.text}>
-        Os preparativos para a participação em um evento costumam ser atarefados para quem oferece e cansativos para quem participa. No entanto, há um arquivo que pode mudar o cenário para ambos, diminuindo o tempo destinado à retirada de dúvidas e causando boas impressões: o chamado de <b>'Presstrip'</b>, <b>'Travelbook'</b> ou <b>'Livro de viagem'</b>. 
+        Os preparativos para a participação em um evento costumam ser atarefados para quem oferece e cansativos para quem participa. No entanto, há um arquivo que pode mudar o cenário para ambos, diminuindo o tempo destinado à retirada de dúvidas e causando boas impressões: o chamado de <b>&apos;Presstrip&apos;</b>, <b>&apos;Travelbook&apos;</b> ou <b>&apos;Livro de viagem&apos;</b>. 
         </p>
         <h3 className={styles.h3}>Saiba o porquê enviar</h3>
         <p className={styles.text}>
@@ -27,18 +27,18 @@ export default function Paragraph(){
         </p>
         <h3 className={styles.h3}>Entenda quando enviar</h3>
         <p className={styles.text}>
-        A nossa dica é que o envio do <b>'Presstrip'</b> aconteça junto ao convite ou ingresso. O seu formato pode ser impresso ou digital, contudo, se o material for impresso deve-se considerar com atenção a data de envio, já que materiais físicos dependem do prazo da logística de entrega e será desagradável se o recebimento acontecer após o evento ter acontecido. 
+        A nossa dica é que o envio do <b>&apos;Presstrip&apos;</b> aconteça junto ao convite ou ingresso. O seu formato pode ser impresso ou digital, contudo, se o material for impresso deve-se considerar com atenção a data de envio, já que materiais físicos dependem do prazo da logística de entrega e será desagradável se o recebimento acontecer após o evento ter acontecido. 
         </p>
         <p className={styles.text}>
         Nos casos do envio digital, pense na maneira que fará a confirmação do recebimento do participante. Será frustrante para todos se, mediante um imprevisto evitável, souberem que havia um e-mail perdido na lixeira com soluções viáveis que deveriam ter sido revisadas com antecedência.
         </p>
         <h3 className={styles.h3}>Considerações gerais</h3>
         <p className={styles.text}>
-        De acordo com os relatórios de busca do <a href='https://pt.semrush.com/'>SEMRUSH</a>, esse termo é muito mais buscado em países como Argentina, México e Peru, mas devemos motivar essa prática no Brasil também. Os eventos tem uma oportunidade de obterem sucesso, evite arriscar. Comercialmente falando, não é interessante que os participantes tenham uma má experiência, ainda que a pauta do evento seja pioneira ou muito relevante. Desenvolva um material com informações importantes, nem tudo que parece óbvio realmente é uma obviedade para outras pessoas. 
+        De acordo com os relatórios de busca do <a href="https://pt.semrush.com/">SEMRUSH</a>, esse termo é muito mais buscado em países como Argentina, México e Peru, mas devemos motivar essa prática no Brasil também. Os eventos tem uma oportunidade de obterem sucesso, evite arriscar. Comercialmente falando, não é interessante que os participantes tenham uma má experiência, ainda que a pauta do evento seja pioneira ou muito relevante. Desenvolva um material com informações importantes, nem tudo que parece óbvio realmente é uma obviedade para outras pessoas. 
         </p>
         <FloatingButton />
         <p className={styles.text}>
-        Precisa de ajuda para desenvolver o seu <b>'presstrip'</b>? Entre em contato conosco clicando <a href='https://www.buuk.com.br/contato'>aqui</a>.
+        Precisa de ajuda para desenvolver o seu <b>&apos;presstrip&apos;</b>? Entre em contato conosco clicando <a href="https://www.buuk.com.br/contato">aqui</a>.
         </p>
     </div>
         </>

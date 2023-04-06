@@ -13,7 +13,7 @@ export default function Logo(){
         />
         <br/>
         <Image
-            className={styles.logoDown}
+            className={styles.logoDown} 
             src="/assets/images/menu/logo-part-2.png"
             alt="Logo da empresa"
             width={83}
