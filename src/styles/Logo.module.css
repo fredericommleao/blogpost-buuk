@@ -1,0 +1,28 @@
+.logoUp{
+   
+left: 0.08%;
+right: 92.78%;
+top: 2.38%;
+bottom: 40.48%;
+    
+}
+
+.logoDown{
+left: 0.16%;
+right: 92.94%;
+top: 76.19%;
+bottom: 2.38%;
+
+}
+
+
+.logoContainer {
+    margin-left: 10vh;
+    position:absolute;
+    left: 0.08%;
+    right: 92.78%;
+    top: 2.38%;
+    bottom: 40.48%;
+    
+    
+  }

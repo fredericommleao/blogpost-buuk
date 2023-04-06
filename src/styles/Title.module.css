@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@500&display=swap');
+
+
+.container{
+  padding-top: 4.5vh;
+  padding-bottom: 9vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.Link {
+  font-family: K2D,sans-serif;
+  width: 80%;
+height: 50px;
+
+/* Headings/H2 */
+
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 1.4;
+/* identical to box height, or 50px */
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}

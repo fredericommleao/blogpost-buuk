@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@300&display=swap');
+
+
+.container {
+  padding-top: 4.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  word-wrap: break-word;
+}
+
+.Link {
+  font-family: K2D, sans-serif;
+  width: 672px;
+  height: 32px;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 1.4;
+  text-align: center;
+  color: #6B7280;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-bottom: 10vh;
+}
+
+  
+  
