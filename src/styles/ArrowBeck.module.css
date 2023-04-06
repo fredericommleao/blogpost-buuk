@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
 .container{
     background-color: #FFFFFF;
     width: 100%;
@@ -5,12 +7,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 1rem;
 }
 
 
 .container p{
     color: #000000;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Inter,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
     padding-bottom: 1rem;
 }
 

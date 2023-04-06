@@ -28,6 +28,7 @@ export default function Cards(){
                     </p>
                     <br />
                     <br />
+                    
 
                     <div className={styles.cardAuthor}>
                     <Image 
@@ -98,7 +99,6 @@ export default function Cards(){
                     <p className={styles.cardText}>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.
                     </p>
-                    <br />
 
                     <div className={styles.cardAuthor}>
                     <Image 

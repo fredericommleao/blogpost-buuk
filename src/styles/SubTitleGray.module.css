@@ -2,12 +2,13 @@
 
 
 .container {
-  padding-top: 4.5vh;
+  padding-top: 2vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   word-wrap: break-word;
+  padding-bottom: 8vh;
 }
 
 .Link {

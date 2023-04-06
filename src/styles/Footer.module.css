@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -19,14 +21,16 @@
 }
 
 .div p{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Roboto,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
   padding: 0.5rem;
   
   color: #FFFFFF;
 }
 
 .div span{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Roboto,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
   color: #FFFFFF;
 }
 
@@ -34,9 +38,10 @@
   padding: 2rem;
   text-align: center;
   background-color: #F5C646;
+  font-weight: 700;
   width: 100%;
   color: #000000;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Roboto,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*CSS - div - localizacao */
@@ -64,7 +69,8 @@
 
 .socialMedia p {
   margin: 1rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Roboto,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
   color: #FFFFFF;
   
 }

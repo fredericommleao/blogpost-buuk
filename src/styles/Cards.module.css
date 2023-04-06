@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
 .cardSection {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 25px;
   background-color: #FFFFFF;
   
 }
@@ -31,6 +33,10 @@
   font-size: 20px;
   margin-bottom: 10px;
   color: #000000;
+  font-weight: 600;
+
+  font-family: Inter,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 
 }
 
@@ -38,6 +44,8 @@
   font-size: 20px;
   margin-bottom: 10px;
   color: #4F46E5;
+  font-weight: 500;
+  font-family: Inter,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
@@ -45,6 +53,9 @@
   font-size: 14px;
   color: #000000;
   margin-bottom: 20px;
+  font-weight: 400;
+  font-family: Inter,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .cardAuthor {
@@ -62,5 +73,7 @@
 }
 
 .cardAuthor span {
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Inter,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

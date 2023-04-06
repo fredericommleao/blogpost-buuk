@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className={styles.footer}>
 
       <div className={styles.div}>
-      <Image src="/assets/images/footer/Buuk_logo.png" alt="Logotipo da empresa" width={180} height={85.59} />
+      <Image src="/assets/images/footer/buuk_logo.png" alt="Logotipo da empresa" width={180} height={85.59} />
       
       </div>
 
