@@ -1,18 +1,23 @@
-import React from "react";
+import Script from 'next/script'
 
-export default function Analytics(){
-    <>
-         {/* Adicione a tag do Google Tag Manager aqui */}
-         <script async src="https://www.googletagmanager.com/gtag/js?id=G-4DGP50P4KT"></script>
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'G-4DGP50P4KT');
-              `,
-            }}
-          />
-    </>
+function Analytics() {
+  return (
+    <div className="container">
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-XYGHB0M64H"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-XYGHB0M64H');
+        `}
+      </Script>
+    </div>
+  )
 }
+
+export default Analytics
