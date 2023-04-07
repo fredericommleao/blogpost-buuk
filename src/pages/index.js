@@ -1,5 +1,4 @@
 import Head from 'next/head'
-
 import Navbar from '../../components/NavBar'
 import Banner from '../../components/Banner'
 import Content from '../../components/Content'
@@ -7,6 +6,7 @@ import TitleSecond from '../../components/TitleSecond'
 import Cards from '../../components/Cards'
 import Footer from '../../components/Footer'
 import ArrowBeck from '../../components/ArrowBeck'
+import Analytics from '../../components/GoogleAnalytics'
 
 export default function Home() {
   return (
@@ -18,9 +18,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-   
-      <Navbar />
-      <Banner />
+      <Analytics/>
+      <Navbar/>
+      <Banner/>
       <Content/>
       <TitleSecond/>
       <Cards/>
