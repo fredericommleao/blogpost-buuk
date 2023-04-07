@@ -6,7 +6,7 @@
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  height: 60vh;
+  height: 420px;
   background-color: #333333;
   
 }
@@ -36,14 +36,20 @@
 }
 
 .bottom {
-  padding: 1.75rem;
+  height: 60px;
   text-align: center;
   background-color: #F5C646;
-  font-weight: 600;
-  font-size: 16px;
   width: 100%;
+}
+
+.bottom p {
+  padding-top: 1.5rem;
   color: #000000;
+  font-weight: 700;
+  font-size: 16px;
   font-family: Roboto,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
 }
 
 /*CSS - div - localizacao */
@@ -52,11 +58,16 @@
   display: flex;
   align-items: center;
   margin: 10px 0;
+  
 }
 
 .location img {
   margin-left: 5px;
   margin-right: 5px;
+}
+
+.location span {
+  font-weight: 400;
 }
 
 

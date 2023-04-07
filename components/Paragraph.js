@@ -9,6 +9,9 @@ export default function Paragraph(){
         <p className={styles.text}>
         Os preparativos para a participação em um evento costumam ser atarefados para quem oferece e cansativos para quem participa. No entanto, há um arquivo que pode mudar o cenário para ambos, diminuindo o tempo destinado à retirada de dúvidas e causando boas impressões: o chamado de <b>&apos;Presstrip&apos;</b>, <b>&apos;Travelbook&apos;</b> ou <b>&apos;Livro de viagem&apos;</b>. 
         </p>
+        <p className={styles.italic}>
+        OBS: A Buuk não organiza eventos, apenas cria os materiais digitais ou impressos para esses acontecimentos. Porém, as fundadoras da Buuk já tiveram uma empresa de organização de eventos e querem compartilhar com você algumas dicas além das associadas ao material em si. 
+        </p>
         <h3 className={styles.h3}>Saiba o porquê enviar</h3>
         <p className={styles.text}>
         Há convidados/participantes que moram em outra cidade, estado e/ou país? Então é necessário. Essa obrigatoriedade no envio se dá ao benefício de estimular que a experiência do evento seja tranquila durante os preparativos de quem irá se deslocar e minimza os imprevistos durante a viagem. 

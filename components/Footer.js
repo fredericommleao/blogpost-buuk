@@ -15,11 +15,11 @@ export default function Footer() {
   <p>ONDE ESTAMOS</p>
   <div className={styles.location}>
      <Image src="/assets/images/footer/Shape.png" alt="Espaço para imagem" height={19.98} width={17.41} />
-    <span>Florianópolis/SC</span>
+    <span>Florianópolis / SC</span>
   </div>
   <div className={styles.location}>
      <Image src="/assets/images/footer/Shape.png" alt="Espaço para imagem" height={19.98} width={17.41}/>
-    <span>São Paulo/SP</span>
+    <span>São Paulo / SP</span>
   </div>
 </div>
 

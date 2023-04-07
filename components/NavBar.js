@@ -11,13 +11,15 @@ export default function Navbar() {
             <nav className={styles.nav}>
                     <ul className={styles.ul}>
                         <li className={styles.li}>
-                        <Link href="/" className={styles.Link}>
+                        <Link href="/" className={styles.liArrow}>
                             Serviços 
-                        <Image src="/assets/images/menu/Icon.png"
+                            <Image  className={styles.arrow} src="/assets/images/menu/Icon.png"
                         alt="Logo da empresa"
                         width={10}
-                        height={6}/>
+                        height={6}     
+                        />
                         </Link>
+                        
                         </li>
                         <li className={styles.li}>
                         <Link href="/about" className={styles.Link}>

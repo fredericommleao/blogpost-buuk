@@ -14,7 +14,19 @@
     font-size: 16px;
     line-height: 1.8;
     color: #000000;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    text-align: justify;
+  }
+
+  .italic {
+    font-style: italic;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #000000;
+    margin-top: 40px;
+    margin-bottom: 40px;
     text-align: justify;
   }
 
