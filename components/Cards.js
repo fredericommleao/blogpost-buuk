@@ -26,18 +26,17 @@ export default function Cards(){
                     <p className={styles.cardText}>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.
                     </p>
-                    <br />
-                    <br />
+                   
                     
 
-                    <div className={styles.cardAuthor}>
+                    <div className={styles.cardAuthor1}>
                     <Image 
                         src="/assets/images/cards/Avatar.png"
                         alt="Logo da empresa"
                         width={40}
                         height={40}
                     />
-                        <span>Nome do Autor <br/> 2 - 01/02/2022</span>
+                        <span >Nome do Autor <br/> 1 - 01/02/2022</span>
                     </div>
                     </div>
                 </div>
@@ -62,7 +61,7 @@ export default function Cards(){
                     <h2 className={styles.cardTitle}>How to use search engine optimization to drive sales</h2>
 
                     <p className={styles.cardText}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi.
                     </p>
 
                     <div className={styles.cardAuthor}>
@@ -74,7 +73,7 @@ export default function Cards(){
                     />
                   
                         <span>Nome do Autor <br/> 2 - 01/02/2022</span>
-                    </div>
+                    </div>                 
                     </div>
                 </div>
             

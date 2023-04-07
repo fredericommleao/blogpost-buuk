@@ -31,7 +31,7 @@ const Button = () => {
       <button className={styles.button}>
         <Image src="/assets/images/whatsapp.png" alt="botao de fale conosco" width={50} height={50} />
       </button>
-      <h3>Chegou até aqui? <br/> fale Conosco</h3>
+      <h3>fale Conosco</h3>
     </div>
   )
 }
