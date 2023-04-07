@@ -8,7 +8,7 @@ const Button = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 1250) { // mostra o botão quando o scroll estiver maior do que 500 pixels
+      if (window.scrollY > 1500) { // mostra o botão quando o scroll estiver maior do que 500 pixels
         setShowButton(true);
       } else {
         setShowButton(false);
