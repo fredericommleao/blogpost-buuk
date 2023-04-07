@@ -12,7 +12,7 @@
 
 .card {
   width: 30%;
-  height: 33rem;
+  height: 35rem;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
@@ -25,19 +25,32 @@
 }
 
 .cardContent {
-  padding: 20px;
-  height: 50%;
+  padding: 25px;
+  
 }
 
 .cardTitle {
   font-size: 20px;
-  margin-bottom: 2.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   color: #000000;
   font-weight: 600;
   line-height: 28px;
 
   font-family: Inter,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+
+}
+
+.cardTitleOne{
+  font-size: 20px;
+  margin-top: 1.5rem;
+  margin-bottom: 3.5rem;
+  color: #000000;
+  font-weight: 600;
+  line-height: 28px;
+
+  font-family: Inter,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
@@ -53,10 +66,12 @@
 .cardText {
   font-size: 16px;
   color: #6B7280;
-  margin-bottom: 20px;
   font-weight: 400;
   line-height: 24px;
   font-family: Inter,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-height: 100px; /* Defina a altura máxima do seu texto */
+  
+
 
 }
 
@@ -72,36 +87,12 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  margin-top: 4rem;
   margin-right: 10px;
 }
 
 .cardAuthor span {
-  padding-top: 0.5rem;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 20px;
-  font-family: Inter,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.cardAuthor1 {
-  display: flex;
-  align-items: center;
-  
-  color: #000000;
-
-}
-
-.cardAuthor1 img {
-  margin-top: 2.25rem;
-
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  margin-right: 10px;
-}
-
-.cardAuthor1 span {
-  margin-top: 2.25rem;
+  padding-top: 4rem;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;

@@ -21,7 +21,7 @@ export default function Cards(){
                         Article
                     </p>
 
-                    <h2 className={styles.cardTitle}>Boost your conversion rate</h2>
+                    <h2 className={styles.cardTitleOne}>Boost your conversion rate</h2>
 
                     <p className={styles.cardText}>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.
@@ -29,7 +29,7 @@ export default function Cards(){
                    
                     
 
-                    <div className={styles.cardAuthor1}>
+                    <div className={styles.cardAuthor}>
                     <Image 
                         src="/assets/images/cards/Avatar.png"
                         alt="Logo da empresa"
@@ -61,7 +61,7 @@ export default function Cards(){
                     <h2 className={styles.cardTitle}>How to use search engine optimization to drive sales</h2>
 
                     <p className={styles.cardText}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.
                     </p>
 
                     <div className={styles.cardAuthor}>
@@ -97,6 +97,7 @@ export default function Cards(){
 
                     <p className={styles.cardText}>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.
+                    
                     </p>
 
                     <div className={styles.cardAuthor}>
