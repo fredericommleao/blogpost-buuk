@@ -1,11 +1,23 @@
 .logoContainer {
-    margin-top: 1.5vh;
-    margin-left: 10.5vh;
+   
     position:absolute;
-    left: 0.08%;
-    right: 92.78%;
-    top: 2.38%;
+    left: 17.5%;
+    right: 10%;
+    top: 2.5%;
     bottom: 40.48%;
-    
-    
+
   }
+
+  @media screen and (max-width: 1358px) {
+
+    .logoContainer {
+   
+      position:absolute;
+      left: 5%;
+      right: 5%;
+      top: 2.5%;
+      bottom: 40.48%;
+  
+    }
+    
+}

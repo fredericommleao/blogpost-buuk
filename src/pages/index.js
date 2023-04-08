@@ -7,7 +7,6 @@ import Cards from '../../components/Cards'
 import Footer from '../../components/Footer'
 import ArrowBeck from '../../components/ArrowBeck'
 import Analytics from '../../components/GoogleAnalytics'
-import Script from 'next/script'
 
 export default function Home() {
   return (

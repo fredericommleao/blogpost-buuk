@@ -2,8 +2,8 @@
 
 
 .container{
-  padding-top: 12vh;
-  padding-bottom: 15vh;
+  padding-top: 50px;
+  padding-bottom: 25px;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -12,9 +12,7 @@
 
 .Link {
   font-family: K2D,sans-serif;
-  width: 80%;
-height: 50px;
-
+  width: 1000px;
 /* Headings/H2 */
 
 font-style: normal;
@@ -22,13 +20,5 @@ font-weight: 500;
 font-size: 48px;
 line-height: 1.4;
 /* identical to box height, or 50px */
-
 color: #000000;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
 }
