@@ -1,23 +1,17 @@
-.logoContainer {
-   
-    position:absolute;
-    left: 17.5%;
-    right: 10%;
-    top: 2.5%;
-    bottom: 40.48%;
-
+  @media screen and (min-width: 1367px) and (max-width: 1920px) {
+    .container {
+      position:absolute;
+      left: 17.5%;
+      top: 2.5%;
+    }
   }
 
-  @media screen and (max-width: 1358px) {
+  @media screen and (min-width: 1024px) and (max-width: 1366px) {
+    /* Estilos para telas com largura entre 1024px e 1366px */
 
-    .logoContainer {
-   
-      position:absolute;
-      left: 5%;
-      right: 5%;
-      top: 2.5%;
-      bottom: 40.48%;
-  
+      .container {
+        position:absolute;
+        left: 5%;
+        top: 2.5%;  
     }
-    
-}
+  }

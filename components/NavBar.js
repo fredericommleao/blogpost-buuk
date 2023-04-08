@@ -3,7 +3,9 @@ import Logo from '../components/Logo'
 import styles from '@/styles/NavBar.module.css'
 import Image from 'next/image';
 
+
 export default function Navbar() {
+
     return (
         <>
             <header className={styles.container}>

@@ -3,9 +3,8 @@ import styles from '@/styles/Logo.module.css'
 
 export default function Logo(){
     return  (
-    <div className={styles.logoContainer}>
+    <div className={styles.container}>
         <Image 
-            className={styles.logoUp}
             src="/assets/images/menu/logo-part-1.png"
             alt="Logo da empresa"
             width={85.93}
@@ -13,7 +12,6 @@ export default function Logo(){
         />
         <br/>
         <Image
-            className={styles.logoDown} 
             src="/assets/images/menu/logo-part-2.png"
             alt="Logo da empresa"
             width={83}

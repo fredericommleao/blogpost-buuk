@@ -2,7 +2,7 @@
 
 
 .container {
-  padding-top: 15px;
+  padding-top: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,18 +13,18 @@
 
 .Link {
   font-family: K2D, sans-serif;
-  width: 672px;
-  height: 32px;
+  width: 42rem;
+  height: 2rem;
   font-style: normal;
   font-weight: 100;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.8;
   text-align: center;
   color: #6B7280;
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin-bottom: 75px;
+  margin-bottom: 4.688rem;
 }
 
   

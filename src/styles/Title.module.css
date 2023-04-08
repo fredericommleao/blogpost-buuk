@@ -2,8 +2,8 @@
 
 
 .container{
-  padding-top: 50px;
-  padding-bottom: 25px;
+  padding-top: 3.125rem;
+  padding-bottom: 1.563rem;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -12,12 +12,12 @@
 
 .Link {
   font-family: K2D,sans-serif;
-  width: 1000px;
+  width: 62.5rem;
 /* Headings/H2 */
 
 font-style: normal;
 font-weight: 500;
-font-size: 48px;
+font-size: 3rem;
 line-height: 1.4;
 /* identical to box height, or 50px */
 color: #000000;

@@ -1,9 +1,12 @@
-.banner{
+.container {
+    width: 100%;
+}
+
+.container .banner{
     background-image: url("../../public/assets/images/content/banner.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 26.25rem;
-    padding-top: 4rem;
+    height: 26.25rem;
     width: 100%;
     background-position: 100%;
 }
